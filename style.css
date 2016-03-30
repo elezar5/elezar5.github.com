@@ -1,0 +1,125 @@
+/**
+	STYLES FOR HUGE SEARCH
+	**/
+
+*, html, body {
+				margin: 0;
+				padding: 0;
+				box-sizing: border-box;
+}
+
+body {
+	font-family: "Arial", sans-serif;
+	background: #f1f1f1;
+}
+
+header, section {
+	max-width: 1050px;
+	margin: auto;	
+}
+
+header {
+	padding: 85px 0px 90px;
+}
+
+ul {
+	list-style: none;
+}
+
+*:focus {
+	outline: none;
+}
+
+.column {
+	width: 33.33%;
+	display: inline-block;
+	margin: -8px;
+	padding-right: 50px;
+	vertical-align: top;
+}
+
+.column h2 {
+	font-size: 12px;
+	color: #c2c2c2;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 25px; 
+}
+
+.column ul li{ 
+	background: #ebebed;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin-bottom: 4px;
+	padding: 15px;
+}
+
+.column ul li *{
+	display: inline;
+}
+
+.column ul:hover li:hover {
+	background-color: #c2c2c2;
+}
+
+.column ul:hover li:hover span {
+	color: #ea6d7b;
+}
+
+.column:first-child li img{
+	border-radius: 50%;
+}
+
+.column ul li img{
+	vertical-align: middle;
+	display: inline-block;
+	width: 20%;
+}
+
+.column ul li span{
+	vertical-align: middle;
+	display: inline-block;
+	width: 80%;
+	padding: 10px;
+}
+
+header .search_field {
+	font-size: 80px;
+	color: #c2c2c2;
+	font-weight: bold;
+	border: none;
+	display: inline;
+	max-width: 85%;
+	background: #f1f1f1;
+}
+
+header .search_submit {
+	background: url(../huge-search-master/favicon.png) no-repeat top left;
+	width: 80px;
+	height: 80px;
+	background-size: cover;
+	border: none;
+	display: inline;
+}
+
+/* START STYLING */
+
+header .search_field:-webkit-input-placeholder{
+	color: #c2c2c2;
+}
+
+header .search_field::-webkit-input-placeholder{
+	color: #c2c2c2;
+}
+
+header .search_field::-moz-placeholder{
+	color: #c2c2c2;
+}
+
+header .search_field:-moz-placeholder{
+	color: #c2c2c2;
+}
+
+/* END OF STILING */
+
